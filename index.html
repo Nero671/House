@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>House building</title>
+    <meta name="description" content="Описание сайта">
+    <meta name="keywords" content="Постройка дома, строить">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!--Style-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+    <!--Favicon-->
+    <link rel="icon" href="#">
+    <link rel="shortcut icon" href="#">
+
+    <!--OG tags-->
+    <meta property="og:title" content="Title снипета">
+    <meta property="og:description" content="Описание">
+    <meta property="og:type" content="article">
+    <meta property="og:image" content="http://...">
+    <meta property="og:site_name" content="House building">
+  </head>
+  <body>
+    <header>
+      <div class="container">
+          <nav class="header">
+            <div class="header__logo">
+              <a href="index.html">
+                <img src="img/logo.png" alt="Logo">
+              </a>
+            </div>
+            <button href="#" id="menu" class="menu-icon">&#9776;</button>
+            <ul class="navbar-nav" id="menu-responsive">
+              <li class="menu__item">
+                <a href="#">
+                  Инфраструктура
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#">
+                  Планировки и цены
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#">
+                  Материалы и отделка
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#">
+                  Документы
+                </a>
+              </li>
+              <li class="menu__item">
+                <a href="#">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+            <div class="header__inf">
+              <div class="header__phone">
+                +7 (495) 544-23-12
+              </div>
+              <div class="header__button">
+                <a href="#" class="header__position">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  Заказать звонок
+                </a>
+              </div>
+            </div>
+          </nav>
+      </div>
+    </header>
+    <section id="house">
+      <div class="container">
+        <div class="cloud">
+          <div class="cloud__items">
+            <div class="cloud__text">
+              <b>Дом готов,</b> идёт внутренняя отделка. Срок сдачи: <b>Февраль 2016</b>
+            </div>
+              <div class="cloud__head">Ваша квартира в новострое ждет вас</div>
+            <div class="cloud__text cloud__text_mini">
+              Уютные квартиры в центре города и в <b>5 минутах от р. Волга</b>
+            </div>
+          </div>
+        </div>
+        <div class="form">
+          <div class="form__items">
+            <div class="form__head">
+              Запишитесь на просмотр прямо сейчас!
+            </div>
+            <div class="form__text">
+              Покажем Вам квартиры в удобное для Вас время
+            </div>
+            <form class="note" action="index.html" method="post">
+              <input type="text" name="name" class="note__item" placeholder="&#xf007;   Имя">
+              <input type="tel" name="phone" class="note__item note__item_direction" placeholder="&#xf095;   Телефон">
+              <input type="submit" name="view" value="Записаться на просмотр!" class="note__order">
+            </form>
+            <div class="form__end">
+              Осталось всего <span class="form__number">5</span> квартир!
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <ul class="advantages clearfix">
+          <li class="adv__item">
+            <b>Экологически 
+            чистое</b>
+            место
+          </li>
+          <li class="adv__item">
+            <b>Бесплатная 
+              кладовка</b> 
+            в подвале
+          </li>
+          <li class="adv__item">
+            <b>300 метров</b> до 
+            Волги
+          </li>
+          <li class="adv__item">
+            <b>Бесплатное</b> 
+            <b>парковочное</b> 
+            <b>место</b>
+          </li>
+          <li class="adv__item">
+            <b>5 минут</b> до
+            центра
+          </li>
+          <li class="adv__item">
+            <b>Бюджетная
+              отделка под ключ:</b>
+            въехал и живи
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="guarantee">
+      <div class="container">
+        <div class="guarantee__maintext">
+          Дом готов. Идет внутренняя отделка.
+        </div>
+        <div class="guarantee__text">
+          <div class="guarantee__text_photo">
+            <img src="img/flag.png" alt="flag">
+          </div>
+          <div class="guarantee__text_data">
+            Срок сдачи: Февраль 26
+          </div>
+        </div>
+        <div class="insurance">
+          <img src="img/insurance.png" alt="insurance">
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="title">
+          Идеальное расположение дома
+        </div>
+        <div class="subtitle">
+          Тихий и экологически чистый район
+        </div>
+        <div class="place clearfix">
+          <div class="place__items">
+            <img src="img/river.png" alt="river">
+            <div class="place__items_title">
+              Близость к реке
+            </div>
+            <div class="place__items_text">
+              До Волги 300 метров
+            </div>
+          </div>
+          <div class="place__items">
+            <img src="img/greenplace.png" alt="river">
+            <div class="place__items_title">
+              Зеленые зоны
+            </div>
+            <div class="place__items_text">
+              Березовая роща и сосновый бор
+            </div>
+          </div>
+          <div class="place__items">
+            <img src="img/neibourhoods.png" alt="river">
+            <div class="place__items_title">
+              Соседи и атмосфера
+            </div>
+            <div class="place__items_text">
+              Коттеджи и деревенская <br>
+              застрока вокруг
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="infrastructureblock">
+      <div class="container">
+        <div class="title">
+          Развитая инфраструктура
+        </div>
+        <div class="infrastructure clearfix">
+          <div class="infrastructure__items">
+            <div class="infrastructure__items_title">
+              Социальные объекты
+            </div>
+            <img src="img/shadow.png" alt="shadow">
+            <ul class="infrastructure__items_list">
+              <li class="infrastructure__items_text">
+                Волга: 350м, центральный пляж: 900м.
+              </li>
+              <li class="infrastructure__items_text">
+                Автопарковка 5м.
+              </li>
+              <li class="infrastructure__items_text">
+                Игровая детская площадка 2м.
+              </li>
+              <li class="infrastructure__items_text">
+                4 продуктовых магазина в пределах 500м.
+              </li>
+              <li class="infrastructure__items_text">
+                Центр города: 4км.
+              </li>
+              <li class="infrastructure__items_text">
+                Почта 15007: 600.
+              </li>
+            </ul>
+          </div>
+
+          <div class="infrastructure__items">
+            <div class="infrastructure__items_title">
+              Образовательные объекты
+            </div>
+            <img src="img/shadow.png" alt="shadow">
+            <ul class="infrastructure__items_list">
+              <li class="infrastructure__items_text">
+                Детский сад №173 300м.
+              </li>
+              <li class="infrastructure__items_text">
+                Школа №46 900м.
+              </li>
+              <li class="infrastructure__items_text">
+                Школа №50 1300м.
+              </li>
+              <li class="infrastructure__items_text">
+                Школа №97 1000м.
+              </li>
+              <li class="infrastructure__items_text">
+                Гимназия №3 2400м.
+              </li>
+            </ul>
+          </div>
+          <div class="infrastructure__items">
+            <div class="infrastructure__items_title">
+              Транспортные остановки
+            </div>
+            <img src="img/shadow.png" alt="shadow">
+            <ul class="infrastructure__items_list">
+              <li class="infrastructure__items_text">
+                Союзная: 300м.
+              </li>
+              <li class="infrastructure__items_text">
+                К-тр.Дружба: 600м.
+              </li>
+              <li class="infrastructure__items_text">
+                Школа 50: 1100м.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="infrastructure__advantages">
+        <div class="content">
+          <ul class="facilities">
+            <li class="facilities__items clearfix">
+              <div class="facilities__place">
+                <div class="facilities__items_circle">
+                  <img src="img/clock.png" alt="clock">
+                </div>
+              </div>
+              <div class="facilities__place">
+                <div class="facilities__items_title">
+                  До центра 5 минут на машине
+                </div>
+                <div class="facilities__items_text">
+                  или общ. транспорте
+                </div>
+              </div>
+            </li>
+            <li class="facilities__items clearfix">
+              <div class="facilities__place">
+                <div class="facilities__items_circle">
+                  <img src="img/people.png" alt="people">
+                </div>
+              </div>
+              <div class="facilities__place">
+                <div class="facilities__items_title">
+                  3 школы и детский садик
+                </div>
+                <div class="facilities__items_text">
+                  в шаговой доступности
+                </div>
+              </div>
+            </li>
+            <li class="facilities__items clearfix">
+              <div class="facilities__place">
+                <div class="facilities__items_circle">
+                  <img src="img/figure.png" alt="figure">
+                </div>
+              </div>
+              <div class="facilities__place">
+                <div class="facilities__items_title">
+                  Вся необходимая инфраструктура
+                </div>
+                <div class="facilities__items_text">
+                  продумана и обеспечена
+                </div>
+              </div>
+            </li>
+          </ul>
+      </div>
+    </section>
+    <section id="constraction">
+      <div class="container">
+        <div class="title">
+          Продуманная конструкция дома
+        </div>
+        <div class="constaruction clearfix">
+          <div class="constaruction__items">
+            <div class="constaruction__items_title">
+              Заголовок про стену
+            </div>
+            <div class="constaruction__items_img">
+              <img src="img/brick.png" alt="brick">
+            </div>
+            <div class="constaruction__items_text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took
+            </div>
+          </div>
+
+          <div class="constaruction__items">
+            <div class="constaruction__items_title">
+              Заголовок про кровлю
+            </div>
+            <div class="constaruction__items_img">
+              <img src="img/roof.png" alt="brick">
+            </div>
+            <div class="constaruction__items_text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make
+            </div>
+          </div>
+
+          <div class="constaruction__items">
+            <div class="constaruction__items_title">
+              Заголовок про канализацию
+            </div>
+            <div class="constaruction__items_img">
+              <img src="img/sewage.png" alt="sewage">
+            </div>
+            <div class="constaruction__items_text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="constructureblock">
+      <div class="content">
+        <div class="title">
+          Комплектация
+        </div>
+        <div class="equipment__title">
+          В каждой квартире
+        </div>
+        <div class="equipment clearfix">
+            <ul class="equipment__items">
+              <li class="equipment__items_text">
+                Газовый кател: Название
+              </li>
+              <li class="equipment__items_text">
+                Ванна: Металлическая
+              </li>
+              <li class="equipment__items_text">
+                Умывальник: Керамический
+              </li>
+              <li class="equipment__items_text">
+                Унитаз: Керамический
+              </li>
+              <li class="equipment__items_text">
+                Газовая плита: Четырех комфорочная
+              </li>
+            </ul>
+
+            <ul class="equipment__items">
+              <li class="equipment__items_text">
+                Балкон: Застекленный
+              </li>
+              <li class="equipment__items_text">
+                Отделка пола: Ленолиум
+              </li>
+              <li class="equipment__items_text">
+                Отделка пола в с/у: Плитка
+              </li>
+              <li class="equipment__items_text">
+                Отделка стен: Водоэмульсионная краска
+              </li>
+            </ul>
+
+            <ul class="equipment__items">
+              <li class="equipment__items_text">
+                Дверь входная: Стальная
+              </li>
+              <li class="equipment__items_text">
+                Двери межкомнатные: Деревянные
+              </li>
+              <li class="equipment__items_text">
+                Окна: ПВХ
+              </li>
+              <li class="equipment__items_text">
+                Отделка стен в с/у: Частично плитка керамическая
+              </li>
+              <li class="equipment__items_text">
+                Отделка потолков: Водоэмульсионная краска
+              </li>
+            </ul>
+      </div>
+    </section>
+    <section id="documentsblock">
+      <div class="container">
+        <div class="title">
+          У нас есть все необходимые документы
+        </div>
+        <div class="subtitle">
+          Обеспечивающие надежность и Вашу защиту
+        </div>
+        <div class="documents clearfix">
+          <div class="documents__items">
+            <img src="img/doc1.png" alt="doc">
+          </div>
+          <div class="documents__items">
+            <img src="img/doc2.png" alt="doc">
+          </div>
+          <div class="documents__items">
+            <img src="img/doc3.png" alt="doc">
+          </div>
+          <div class="documents__items">
+            <img src="img/doc4.png" alt="doc">
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <div class="footer__items">
+          <div class="fot__logo">
+            <img src="img/fotlogo.png" alt="Logo">
+          </div>
+        </div>
+        <div class="footer__items">
+          <div class="footer__items_text">
+            2015 все права защищены <br>
+            <u>Политика конфиденциальности</u>
+          </div>
+        </div>
+        <div class="footer__items">
+          <div class="footer__items_text footer__items_icon">
+            <b class="">Адресс офиса:</b> <br>
+              Ярославская область <br>
+              р-н Заволжский, ул.3-я Тверицкаяд 32 <br>
+              <b>E-mail:</b> info@housebuilding.ru
+          </div>
+        </div>
+        <div class="footer__items">
+        <div class="footer__phone">
+          +7 (495) 544-23-12
+        </div>
+        <div class="footer__button">
+          <a href="#" class="footer__position">
+            <i class="fa fa-phone" aria-hidden="true"></i>
+            Заказать звонок
+          </a>
+        </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
